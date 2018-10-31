@@ -1,0 +1,27 @@
+{
+    "name": "teknepay/teknepay-api-php",
+    "description" : "Teknepay PHP API library",
+    "keywords": [
+      "gateway",
+      "teknepay",
+      "payment processing",
+      "api"
+    ],
+    "license": "GPL-3.0",
+    "authors": [
+      { "name" : "Teknepay",
+        "email": "support@teknepay.com"
+      }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require" : {
+        "php" : ">= 5.3.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*"
+    },
+    "autoload": {
+     "psr-4": { "Teknepay\\" : "lib/Teknepay" }
+    }
+}
